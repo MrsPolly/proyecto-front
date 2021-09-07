@@ -1,0 +1,130 @@
+
+@font-face {
+    font-family: GraphikExtralight;
+    src: url("./Graphik-Extralight.otf") format("opentype");
+}
+
+.mag-header {
+
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-color: #000000;
+    background-position: center center;
+    width: 100%;
+    height: 540px;
+    border-bottom: solid 1px #000;
+}
+
+.nav-link {
+    display: block;
+    padding: 0.7rem 1rem;
+    padding-right: 45px;   
+    border-top: 3.5px solid rgba(0, 0, 0, 0);  
+    &:hover,
+    &:active,
+    &:focus{
+        text-decoration: none;
+        border-bottom: 3.5px solid rgb(40, 235, 33) !important; 
+        padding: 0.3rem 1rem;  
+       
+    }
+}
+
+.nav-link.active{
+    text-decoration: none;
+    border-bottom: 3.5px solid rgb(40, 235, 33) !important;       
+}
+
+a.nav-link{
+    font-family: GraphikExtralight;
+    font-weight: 700;
+    font-size: 14px;
+    font-style: normal;
+    color: #fff !important;
+    &:hover,
+    &:active,
+    &:focus{
+        color: #fff !important; 
+    }
+}
+
+
+
+.text-head{
+    font-family: GraphikExtralight;
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff !important; 
+    margin-top: 10%;
+}
+
+.text-card{
+    font-family: GraphikExtralight;
+    font-weight: 700;
+    font-size: 17px;
+    color: #fff !important; 
+    margin: 10% 20%;
+}
+.text-title{
+    font-family: GraphikExtralight;
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff !important;    
+}
+.titulo{
+    font-family: GraphikExtralight;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: #fff !important;  
+    margin-top: 10%;  
+}
+
+.titulo-peque{
+    font-family: GraphikExtralight;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(40, 235, 33);   
+    margin-top: 15%;
+}
+.footer-text{
+    font-family: GraphikExtralight;
+    font-size: 12px;
+    color: rgb(40, 235, 33);
+}
+.text-peque{
+    font-family: GraphikExtralight;
+    font-weight: 700;
+    font-size: 17px;
+    color: #fff !important;
+    text-align: center;
+    margin: 0 15%;
+}
+
+
+.text-head span{
+    font-family: GraphikExtralight;
+    font-weight: 700;
+    font-size: 30px;
+    color: rgb(40, 235, 33)!important; 
+}
+
+.btn-success {
+    font-family: GraphikExtralight;
+    font-size: 12px;
+    color: #fff;
+    padding: 12px;
+    background-color: rgb(40, 235, 33);
+    border-color: rgb(40, 235, 33);
+}
+
+.linea-head{
+    font-family: GraphikExtralight;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    padding: 15px;
+    background-color: #000
+}
